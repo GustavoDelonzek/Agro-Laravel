@@ -9,7 +9,7 @@
 
         @if($products->isEmpty())
         <div class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
-            <h3><i class="fa fa-box"></i> Produtos (0)</h3>
+            <h3><i class="fa fa-box"></i> Sem produtos cadastrados!</h3>
             <a class="btn btn-success" href="{{ route('products.create') }}">Criar seu produto</a>
         </div>
         @endif
